@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    color: blueviolet;
+    background-color: lightcyan;
+    opacity: 0.9;
+}
+
+h1{
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+}
+
+hr{
+    width: 6%;
+    height: 5px;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.box-container{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px blueviolet;
+    height: 450px;
+}
+
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+    margin-top: 15px;
+}
+
+h5{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.directions{
+    margin: auto;
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    outline: 1px outset lightblue;
+    color: blueviolet;
+}
+
+li{
+    list-style-type: none;
+}
+
+.direction-left:hover,
+.direction-right:hover,
+button:hover{
+    cursor: pointer;
+}
