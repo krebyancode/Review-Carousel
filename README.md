@@ -1,4 +1,4 @@
 # Review-Carousel
-Review Carousel with JS
+Review Carousel of Random Players, developed with JS
 
 https://krebyancode.github.io/Review-Carousel/
